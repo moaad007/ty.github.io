@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,500;1,500;1,600&display=swap');
+/*hadchi li lfo9 imports mn google fonts wblays khrin mhm*/
+*{
+    margin:0;
+    padding: 0;
+  
+
+}
+/*hna kn9ol mn wahd titurial bd n7zt link ila ma nsitch */
+body{
+    font-family: 'Barlow', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+a,.btn{
+    transition: all 300ms ease;
+
+}
+/*hna salit n9il ghnbda nb3ed mn titu bach ikon hadch unique chwia */
+.navbar{
+    display:flex;
+    justify-content: space-around;
+   
+}
+.links li a {
+    text-decoration: none;
+    margin: 10px 10px;
+   
+}
+.links ul {
+    display: flex;
+    list-style: none;
+    padding-top: 12px;
+  
+  
+}
+
+ 
+.container{
+    margin-top: 25px;
+
+}
+    
