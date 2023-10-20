@@ -1,0 +1,45 @@
+header{
+    margin-left:50px;
+   position: relative;
+   bottom: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+
+ }
+
+p{
+    background: linear-gradient(skyblue,lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 150px;
+    color: rgb(5, 5, 5);
+    border-style:solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+}
+
+#bb{
+    margin-left: 50%;
+    margin-top: 200px;
+    margin-right:50% ;
+  width: 100px;
+  border-style: outset;
+  
+ }
+
+body{
+    background-image: url(batman.jpg);
+    background-repeat: no-repeat;
+        background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+
+}
+#bb:hover{
+    background-color:rgb(118, 255, 248)
+
+}
+#bb{
+  
+}
