@@ -21,25 +21,47 @@ a,.btn{
 /*hna salit n9il ghnbda nb3ed mn titu bach ikon hadch unique chwia */
 .navbar{
     display:flex;
-    justify-content: space-around;
+    padding: 25px;
+    justify-content: space-between;
+    color: aliceblue;
+   
    
 }
 .links li a {
     text-decoration: none;
     margin: 10px 10px;
+    color: #f7d09e;
    
 }
 .links ul {
     display: flex;
     list-style: none;
     padding-top: 12px;
+    margin-right: 10px;
   
   
 }
 
  
 .container{
-    margin-top: 25px;
-
+   position:sticky;
+    background: rgba( 13, 12, 12, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+ height: 100px;
+ 
 }
-    
+.slogo{
+    margin-left: 10px;
+}
+.slogo span{
+    color: #f1a746;
+}
+#icon{
+height: 300px;
+left:295px;
+top: 15px;
+}
